@@ -10,4 +10,4 @@ const removeSideberySnapshotsFromHistory = async () => {
 
 removeSideberySnapshotsFromHistory()
 
-setInterval(removeSideberySnapshotsFromHistory, 5 *60 * 1000)
+setInterval(removeSideberySnapshotsFromHistory, 60 * 1000)
